@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-vztz
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0080-tenant/cin4s-839-0080-app/devfile-sample-vztz@sha256:a648ee13f858a03b58452cfab353bc9404b4497de099f900feb27f0c56039b94
+        name: my-nodejs
+        resources: {}
+status: {}
